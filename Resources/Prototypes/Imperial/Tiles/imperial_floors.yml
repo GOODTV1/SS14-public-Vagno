@@ -196,9 +196,208 @@
   footstepSounds:
     collection: FootstepTile
   itemDrop: SnowballIce
-  
   friction: 0.05
   mobFriction: 0.5
   mobFrictionNoInput: 0.05
   mobAcceleration: 2
+  heatCapacity: 10000
+
+- type: tile
+  id: FloorCrossWood
+  name: tiles-cross-wood
+  sprite: /Textures/Imperial/Tiles/crosswood.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepWood
+  barestepSounds:
+    collection: BarestepWood
+  itemDrop: MaterialWoodPlank1
+  heatCapacity: 10000
+
+- type: tile
+  id: FloorCrossWoodBroken
+  name: tiles-cross-wood-broken
+  sprite: /Textures/Imperial/Tiles/crosswood_broken.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepWood
+  barestepSounds:
+    collection: BarestepWood
+  itemDrop: MaterialWoodPlank1
+  heatCapacity: 10000
+
+- type: tile
+  id: FloorDarkWood
+  name: tiles-dark-wood
+  sprite: /Textures/Imperial/Tiles/darkwood.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepWood
+  barestepSounds:
+    collection: BarestepWood
+  itemDrop: MaterialWoodPlank1
+  heatCapacity: 10000
+
+- type: tile
+  id: FloorDarkWoodBroken
+  name: tiles-dark-wood-broken
+  sprite: /Textures/Imperial/Tiles/darkwood_broken.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepWood
+  barestepSounds:
+    collection: BarestepWood
+  itemDrop: MaterialWoodPlank1
+  heatCapacity: 10000
+
+- type: tile
+  id: FloorLargeWood
+  name: tiles-large-wood
+  sprite: /Textures/Imperial/Tiles/largewood.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepWood
+  barestepSounds:
+    collection: BarestepWood
+  itemDrop: MaterialWoodPlank1
+  heatCapacity: 10000
+
+- type: tile
+  id: FloorLargeWoodBroken
+  name: tiles-large-wood-broken
+  sprite: /Textures/Imperial/Tiles/largewood_broken.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepWood
+  barestepSounds:
+    collection: BarestepWood
+  itemDrop: MaterialWoodPlank1
+  heatCapacity: 10000
+
+- type: tile
+  id: FloorLongWood
+  name: tiles-long-wood
+  sprite: /Textures/Imperial/Tiles/longwood.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepWood
+  barestepSounds:
+    collection: BarestepWood
+  itemDrop: MaterialWoodPlank1
+  heatCapacity: 10000
+
+- type: tile
+  id: FloorLongWoodBroken
+  name: tiles-long-wood-broken
+  sprite: /Textures/Imperial/Tiles/longwood_broken.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepWood
+  barestepSounds:
+    collection: BarestepWood
+  itemDrop: MaterialWoodPlank1
+  heatCapacity: 10000
+
+- type: tile
+  id: FloorWoodenTile
+  name: tiles-wooden-tile
+  sprite: /Textures/Imperial/Tiles/woodentile.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepWood
+  barestepSounds:
+    collection: BarestepWood
+  itemDrop: MaterialWoodPlank1
+  heatCapacity: 10000
+
+- type: tile
+  id: FloorWoodenTileBroken
+  name: tiles-wooden-tile-broken
+  sprite: /Textures/Imperial/Tiles/woodentile_broken.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepWood
+  barestepSounds:
+    collection: BarestepWood
+  itemDrop: MaterialWoodPlank1
   heatCapacity: 10000
